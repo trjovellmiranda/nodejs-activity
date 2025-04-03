@@ -104,9 +104,6 @@
         "User": {
             "type": "object",
             "properties": {
-                "user_id": {
-                    "type": "integer"
-                },
                 "user_fname": {
                     "type": "string"
                 },
