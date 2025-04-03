@@ -124,27 +124,3 @@ Once the server is running, open the following URL in your browser:
 http://localhost:8081/api-docs 
 
 ```
-
-### 📂 Swagger JSON File
-Swagger documentation is defined in `swagger.json`. You can use this file with Swagger UI or any API documentation tool.
-
-### 🚀 Install Swagger UI Express
-If you haven't installed it yet, run:
-
-```sh
-npm install swagger-ui-express
-```
-
-### 🔧 Add Swagger to `server.js`
-Ensure you have the following in your `server.js`:
-
-```javascript
-const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('./swagger.json');
-
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-```
-
-Now, you can test and explore your API with a user-friendly Swagger UI interface.
-
----
