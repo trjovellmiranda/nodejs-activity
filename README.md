@@ -121,6 +121,6 @@ npm run dev
 Once the server is running, open the following URL in your browser:
 
 ```
-http://localhost:8081/api-docs 
+http://localhost:3000/api-docs 
 
 ```
