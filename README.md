@@ -29,8 +29,7 @@ NODE-TUTORIAL/
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/trjovellmiranda/node-tutorial.git
-cd node-tutorial
+git clone https://github.com/trjovellmiranda/nodejs-activity.git
 ```
 
 ### 2️⃣ Install Dependencies
